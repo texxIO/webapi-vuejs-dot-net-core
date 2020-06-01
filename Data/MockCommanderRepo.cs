@@ -10,6 +10,11 @@ namespace WebApiVue.Data
             throw new System.NotImplementedException();
         }
 
+        public void DeleteCommand(Command cmd)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public IEnumerable<Command> GetAllCommands()
         {
             var commands = new List<Command>
