@@ -28,7 +28,6 @@ namespace WebApiVue.Controllers
             return Ok(_mapper.Map<IEnumerable<CommandReadDto>>(commandItems));
         }
 
-        //GET api/commands/{id}
         [HttpGet("{id}", Name = "GetCommandById")]
         public ActionResult<CommandReadDto> GetCommandById(int id)
         {
